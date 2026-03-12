@@ -25,5 +25,32 @@ let rect = document.querySelector("#center");
 
 rect.addEventListener("mousemove", function(details){
     var RectLocation = rect.getBoundingClientRect();
+
+
+project-folder
+│
+├── index.html
+├── style.css
+└── script.js
+
+This project helps beginners understand:
+
+DOM selection
+
+Mouse events
+
+mousemove event
+
+getBoundingClientRect()
+
+Calculating mouse position inside an element
+
+🛠 Technologies Used
+
+HTML
+
+CSS
+
+JavaScript
     console.log(details.clientX - RectLocation.left);
 });
